@@ -156,3 +156,14 @@ a.anchor {
     top: -50px;
     visibility: hidden;
 }
+
+.award-container_img {
+  display: flex;
+  justify-content: center; /* Center the images horizontally */
+  gap: 10px; /* Add space between the images */
+}
+
+.award_image {
+  max-width: 100px; /* Adjust the width as per your need */
+  height: auto;
+}
