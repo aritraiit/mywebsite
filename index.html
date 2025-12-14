@@ -25,10 +25,12 @@
     flex-wrap: wrap;
   }
   .award_image {
-    width: 470px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 6px;}
+    width: 48%;               /* responsive width */
+    max-width: 420px;         /* upper limit */
+    height: auto;             /* keep aspect ratio */
+    object-fit: contain;      /* no cropping */
+}
+  
   </style>
 
  <!--
